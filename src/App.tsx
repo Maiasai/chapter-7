@@ -6,7 +6,7 @@ import { ArticlePage } from './articlepage';
 import { Contact } from './Contact';
 
 // ルーティング定義
-export const App = () => {
+export const App: React.FC = () => {
   return (
     <Routes>
       {/* 親ルートに共通レイアウトを配置 */}

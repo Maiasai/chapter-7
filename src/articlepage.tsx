@@ -24,7 +24,7 @@ type ApiResponse = {
 
 
 
-export const ArticlePage = () => {
+export const ArticlePage: React.FC = () => {
   //URLパラメータ（ルートパラメータ）を取得するためのもの
   const { id } = useParams<Params>();
 

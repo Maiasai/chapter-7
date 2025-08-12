@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 
-export const Header = () =>  {
+export const Header: React.FC = () =>  {
 
   return (
     <nav className="bg-black/80">

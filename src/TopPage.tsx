@@ -28,7 +28,7 @@ const stripHtml = (html):string => {
 };
 
 
-export const TopPage = () => {
+export const TopPage: React.FC = () => {
   const [isLoading, setIsLoading] = useState< boolean >(true);
   const [error, setError] = useState< string | null >(null);
   const [posts, setPosts] = useState<PostData[]>([]);

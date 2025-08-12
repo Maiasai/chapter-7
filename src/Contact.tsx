@@ -16,7 +16,7 @@ type NewErrors = {
 
 }
 
-export const Contact = () => {
+export const Contact: React.FC = () => {
   const [text, setText] = useState<FormData>({
     name: '',
     email: '',
